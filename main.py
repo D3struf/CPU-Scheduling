@@ -1,3 +1,12 @@
+# CPU SCHEDULING ALGORITHMS
+#   Shortest Job First
+#   Round Robin
+#   Preemptive Priority
+#   GROUP
+#   CAROLINO, JEANNE MAY
+#   GARCIA, ALMIRA JILL
+#   MONTER, JOHN PAUL
+
 from queue import PriorityQueue, Queue
 from typing import List
 
@@ -255,71 +264,6 @@ def main():
         print("CPU Utilization:", cpuUtilization, '%')
         print("System Throughput:", systemThroughput)
         print()
-
-    # processes = [
-    #     Process(1, 0, 5, 4),
-    #     Process(2, 0, 6, 3),
-    #     Process(3, 0, 7, 2),
-    #     Process(4, 0, 8, 1)
-    # ]
-    #
-    # time_quantum = 4
-
-    # result = shortest_job_first(processes)
-    # avg_turnaroundTime = average_turnaround_time(processes)
-    # avg_waitingTime = average_waiting_time(processes)
-    # cpuUtilization = cpu_Utilization(processes)
-    # systemThroughput = system_Throughput(processes)
-    # print("\nShortest Job First Result:")
-    # for process in result:
-    #     print("Process ID:", process.process_id, '|', process.arrival_time, '|', process.burst_time, '|', process.priority)
-    #     print("Completion Time:", process.completion_time)
-    #     print("Waiting Time:", process.waiting_time)
-    #     print("Turnaround Time:", process.turnaround_time)
-    #     print()
-    # print("Average Waiting Time:", avg_waitingTime)
-    # print("Average Turnaround Time:", avg_turnaroundTime)
-    # print("CPU Utilization:", cpuUtilization, '%')
-    # print("System Throughput:", systemThroughput)
-    # print()
-    #
-    # result = round_robin(processes, time_quantum)
-    # avg_turnaroundTime = average_turnaround_time(processes)
-    # avg_waitingTime = average_waiting_time(processes)
-    # cpuUtilization = cpu_Utilization(processes)
-    # systemThroughput = system_Throughput(processes)
-    # print("\nRound Robin Result:")
-    # for process in result:
-    #     print("Process ID:", process.process_id, '|', process.arrival_time, '|', process.burst_time, '|',
-    #           process.priority)
-    #     print("Completion Time:", process.completion_time)
-    #     print("Waiting Time:", process.waiting_time)
-    #     print("Turnaround Time:", process.turnaround_time)
-    #     print()
-    # print("Average Waiting Time:", avg_waitingTime)
-    # print("Average Turnaround Time:", avg_turnaroundTime)
-    # print("CPU Utilization:", cpuUtilization, '%')
-    # print("System Throughput:", systemThroughput)
-    # print()
-
-    # result = priority_preemptive(processes)
-    # avg_turnaroundTime = average_turnaround_time(processes)
-    # avg_waitingTime = average_waiting_time(processes)
-    # cpuUtilization = cpu_Utilization(processes)
-    # systemThroughput = system_Throughput(processes)
-    # print("\nPreemptive Priority:")
-    # for process in result:
-    #     print("Process ID:", process.process_id, '|', process.arrival_time, '|', process.burst_time, '|',
-    #           process.priority)
-    #     print("Completion Time:", process.completion_time)
-    #     print("Waiting Time:", process.waiting_time)
-    #     print("Turnaround Time:", process.turnaround_time)
-    #     print()
-    # print("Average Waiting Time:", avg_waitingTime)
-    # print("Average Turnaround Time:", avg_turnaroundTime)
-    # print("CPU Utilization:", cpuUtilization, '%')
-    # print("System Throughput:", systemThroughput)
-    # print()
 
 
 # Call the main function
